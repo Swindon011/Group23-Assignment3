@@ -1416,6 +1416,9 @@ background-color: rgba(255, 255, 255, 0.075);
 
 
 /*  Intro  page CSS  Start */
+
+
+
 	#intro nav2 a{
 	
 			position:absolute;
@@ -1457,22 +1460,8 @@ background-color: rgba(255, 255, 255, 0.075);
 	letter-spacing: 1px;
 	text-align: center;
 	font-size: 25px;
-}
 
-#Intro a{
-	color:lightblue;
 }
-
-#Intro a:hover{
-   color:lightcoral;
-}
-#Intro a:active {
-   color: lightgreen;
-}
-#Intro a:visited{
-	color: lightgreen;
-}
-
 .teamImg{
 position:relative;
 
@@ -1522,70 +1511,32 @@ position:relative;
 		border-bottom: solid 2px silver;
 	 }
 
-/*  It_tech page CSS  Start */
-	 #It_Tech  h1{
-		 
-		text-align: center;
-		letter-spacing: 0.2rem;
-		color:silver;
-		
-	 }
-
-	 #It_Tech h2{
-		 text-align:center;
-		 color: #a62526;
-	 }
-
-	 #It_Tech h3{
-		 color:#a62526;
-	 }
-
-	 #It_Tech a{
-		 color:lightblue;
-	 }
 
 
-	 #It_Tech a:hover{
-		color:lightcoral;
-	}
-	 #It_Tech a:active {
-		color: lightgreen;
-	 }
-
-	 #It_Tech a:visited{
-		color: lightgreen;
-	}
-
-/*  It_tech page CSS  End */
-
-
-/*  Industry Data page CSS  Start */
-	 #Industry_Data a{
+/*  Career_Plans page CSS  Start */
+	 #Career_Plans a{
 		color:lightblue;
 	}
 
 
-	#Industry_Data a:hover{
+	#Career_Plans a:hover{
 	   color:lightcoral;
    }
-   #Industry_Data a:active {
+   #Career_Plans a:active {
 	   color: lightgreen;
 	}
 
-	#Industry_Data a:visited{
+	#Career_Plans a:visited{
 		color: lightgreen;
 	}
-/*  Industry Data page CSS  End */
 
-
-
-	#Ideal_jobs h2{
-		color:silver;
+	#Career_Plans h2{
+		color:#a62526;
 	}
+/*  Career Plans page CSS  End */
 
 
-
-
+/*  Project page CSS  Start */
 #Project  h1{
 		 
 	text-align: center;
@@ -1618,12 +1569,10 @@ position:relative;
  #Project a:visited{
 	color: lightgreen;
 }
-	
+/*  Project page CSS  End */	
 
-#References{
-	
-}
 
+/*  References page CSS  Start */
 #References  h1{
 		 
 	text-align: center;
@@ -1660,31 +1609,12 @@ position:relative;
 #References a:visited{
 	color: lightgreen;
 }
+/*  References page CSS  END */
 
-
-#Industry_Data a.button1{
-	color: silver;
-	background-color: transparent;
-	border:solid 1px;
-	border-color:white;
-	cursor: pointer;
-	padding: 18px;
-	width: 100%;
-	border: none;
-	text-align: left;
-	outline: none;
-	font-size: 24px;
-	transition: 0.4s;
-
-}
-
-#Industry_Data a.button1:hover{
-	background-color: rgba(255, 255, 255, 0.175);
-  }
 
 
 	
-
+/*  Misc CSS  Start */
 .accordion {
   
   color: silver;
@@ -1769,6 +1699,4 @@ position:relative;
 	transition: max-height 0.2s ease-out;
   }
   
-  .video{
-	  margin-left: -54px;
-  }
+  /*  Misc CSS  End */
